@@ -1,0 +1,142 @@
+* {
+    margin: 0,0,0,0;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body{
+    width: 90vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bangtiso{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bangtiso .user{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bangtiso .bot{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bangtiso .between{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bangtiso .mark{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bangtiso .image-user{
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-nam{
+    background-image: url("../images/nam_image.jpeg");
+}
+
+.image-nu{
+    background-image: url("../images/nu_images.png");
+}
+
+.image-bot1{
+    background-image: url("../images/bot1.png");
+}
+
+.image-bot2{
+    background-image: url("../images/bot2.jpeg");
+}
+
+.game{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tablexo{
+    width: fit-content;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.col {
+    width: 30px;
+    background-size: 20px 20px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.x {
+    background-image: url("../images/x_images.png");
+    background-position-x: 5px;
+    background-position-y: 5px;
+}
+
+.o {
+    background-image: url("../images/o_images.png");
+    background-position-x: 5px;
+    background-position-y: 5px;
+}
+
+.control{
+    width: 20%;
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 7px 14px;
+    text-align:  center;
+    width: 150px;
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.col-win{
+    background-color: darkseagreen;
+    border-color: forestgreen;
+}
